@@ -1,3 +1,9 @@
+---
+title: Robotics
+description: 
+layout: default
+---
+
 # Autonomous drones for warehouse inventory monitoring 
 ![System overview](/images/aims-overview.png)
 ![Drone](/images/sientis-drone.webp)
