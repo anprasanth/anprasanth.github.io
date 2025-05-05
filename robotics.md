@@ -1,0 +1,4 @@
+- Indoor drones for warehouse monitoring 
+- Outdoor drones for object tracking and following
+- Drone precision landing using computer vision and IR beacons 
+- Gesture-controlled and voice-activated drones
