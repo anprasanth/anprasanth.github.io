@@ -4,15 +4,24 @@ description: Robotics
 layout: default
 ---
 
-# Autonomous drones for warehouse inventory monitoring 
-![System overview](/images/aims-overview.png)
-![Drone](/images/sientis-drone.webp)
+# Warehouse inventory management 
+<img src="/images/aims-overview.png" alt="System overview" width="600">
+This is work I directed at Sientis (a Nokia venture). Warehouses perform inventory cycle counting manually
+which is slow and costly. We developed indoor drones which fly autonomously and capture images of inventory 
+locations performing inventory counting 30x faster. The drones used in-house computer vision localization 
+without requiring any additional infrastructure (such as beacons or tags). 
+<img src="/images/sientis-drone.webp" alt="Drone" width="500">
+We built an industry-leading compact and quiet drone that can navigate narrow aisles and captures 4K images.
+The images are uploaded to the on-premise edge server and public cloud where the images are processed and
+the inventory results are presented.
 
-# Autonomous drones for plant monitoring in vertical farms
+**Technologies**: ROS, PX4, VIO, VPS, Sensor fusion, Path planning, Trajectory control, Imaging
 
-# Outdoor drones for object tracking and following
+# Plant monitoring in vertical farms
 
-# Drone precision landing 
+# Object tracking and following
+
+# Precision landing 
 using computer vision and IR beacons 
 
 # Gesture-controlled drones
