@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8">
+
+<!-- Begin Jekyll SEO tag v2.8.0 -->
+<title>Prasanth Ananth | Portfolio of engineering R&amp;D projects</title>
+<meta name="generator" content="Jekyll v3.10.0" />
+<meta property="og:title" content="Prasanth Ananth" />
+<meta property="og:locale" content="en_US" />
+<meta name="description" content="Robotics" />
+<meta property="og:description" content="Robotics" />
+<link rel="canonical" href="http://localhost:4000/robotics.html" />
+<meta property="og:url" content="http://localhost:4000/robotics.html" />
+<meta property="og:site_name" content="Prasanth Ananth" />
+<meta property="og:type" content="website" />
+<meta name="twitter:card" content="summary" />
+<meta property="twitter:title" content="Prasanth Ananth" />
+<script type="application/ld+json">
+{"@context":"https://schema.org","@type":"WebPage","description":"Robotics","headline":"Prasanth Ananth","url":"http://localhost:4000/robotics.html"}</script>
+<!-- End Jekyll SEO tag -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link rel="preload" href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap" as="style" type="text/css" crossorigin>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="theme-color" content="#157878">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <link rel="stylesheet" href="/assets/css/style.css?v=6f4ac9a464ec89835da70bfe09934dcf61aa533f">
+    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
+
+<!-- Setup Google Analytics -->
+
+
+
+<!-- You can set your favicon here -->
+<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
+
+<!-- end custom head snippets -->
+
+  </head>
+  <body>
+    <a id="skip-to-content" href="#content">Skip to the content.</a>
+
+    <header class="page-header" role="banner">
+      <h1 class="project-name">Prasanth Ananth</h1>
+      <h2 class="project-tagline">Robotics</h2>
+    </header>
+
+    <main id="content" class="main-content" role="main">
+      <h1 id="warehouse-inventory-management">Warehouse inventory management</h1>
+
+<p><img src="/images/aims-overview.png" alt="System overview" width="750" /></p>
+
+<p>This is work I directed at <a href="https://www.sientis.ai/">Sientis</a> (a Nokia venture). Warehouses perform inventory cycle counting manually
+which is slow and costly. We developed indoor drones which fly autonomously and capture images of inventory 
+locations performing inventory counting 30x faster. The drones use in-house computer vision localization 
+without requiring any additional infrastructure (such as beacons or tags).</p>
+
+<p><img src="/images/sientis-drone.webp" alt="Drone" width="350" /></p>
+
+<p>We built an industry-leading compact and quiet drone that can navigate narrow aisles and captures 4K images.
+The images are uploaded to the on-premise edge server and public cloud where the images are processed and
+the inventory results are presented to the warehouse user.</p>
+
+<p><strong>Technologies</strong>: ROS, PX4, VIO, VPS, Sensor fusion, Path planning, Trajectory control, Imaging, Gazebo, Isaac Sim</p>
+
+<h1 id="plant-monitoring-in-vertical-farms">Plant monitoring in vertical farms</h1>
+
+<p>This is work I directed at <a href="https://www.nokia.com/bell-labs/">Nokia Bell Labs</a>, where we collaborated with <a href="https://www.aerofarms.com/">AeroFarms</a>. In indoor vertical farms, 
+the plants go through a growth cycle of few weeks during which they need to be inspected every day by
+plant scientists, which is time-consuming and thus costly. We developed indoor drones which fly autonomously
+and capture high-resolution images of every plant tray. The drones use computer vision localization with 
+Visual Inertial Odometry (VIO) and drift correction using fiducials. The images are uploaded to the
+on-premise edge server where the images are processed and the plant analytics results are presented 
+to the plant scientists.</p>
+
+<p><strong>Technologies</strong>: ROS, PX4, VIO, AprilTags, Sensor fusion, Path planning, Imaging, Gazebo, AirSim</p>
+
+<p>Featured in <a href="https://spectrum.ieee.org/industrial-automation-monitor-vertical-farms"><strong>IEEE Spectrum</strong></a></p>
+
+<h1 id="object-tracking-and-following">Object tracking and following</h1>
+
+<p><img src="/images/track-and-follow.png" alt="Drone" width="350" /></p>
+
+<p>This is work I directed at <a href="https://www.nokia.com/bell-labs/">Nokia Bell Labs</a>. The Nokia drones business required the tracking of objects and
+following the object’s movement using the gimbal of an outdoor surveillance drone. We developed a solution
+with object tracking and a PID-based controller to control the pan-tilt-zoom of the gimbal. 
+We then extended this work to estimate the position of the object and have the drone follow it 
+from a specified distance.</p>
+
+<p><strong>Technologies</strong>: ROS, PX4, GPS, Path planning, Video streaming, Gazebo, AirSim</p>
+
+<h1 id="precision-landing">Precision landing</h1>
+
+<p><img src="/images/prec-land.png" alt="Drone" width="300" /></p>
+
+<p>This is work I directed at <a href="https://www.nokia.com/bell-labs/">Nokia Bell Labs</a>. The Nokia drones business had a requirement to precisely land 
+(cm-level accuracy) an outdoor drone on a docking station for charging. We developed two solutions: one
+using AprilTags and computer vision, and another using an IR beacon, each with its own pros and cons.
+We then extended this work to add safety mechanisms for when the drone loses sight of the tag or beacon.</p>
+
+<p><strong>Technologies</strong>: ROS, ArduPilot, PX4, GPS-RTK, AprilTags, Waypoint planning, Video streaming, Gazebo</p>
+
+<h1 id="gesture-controlled-drones">Gesture-controlled drones</h1>
+
+<p><img src="/images/gesture-drone.png" alt="Drone" width="300" /></p>
+
+<p>This is work I directed at <a href="https://www.nokia.com/bell-labs/">Nokia Bell Labs</a>, which was in part a 
+collaboration with artists-in-residence. We used a wearable sleeve with embedded sensors and software
+to recognize gestures. We developed a system where the gesture commands from the sleeve are translated
+into drone movements and a person could tele-operate the drone either indoor or outdoor. This demo
+was adapted and integrated into a live dance performance by the artists.</p>
+
+<p><strong>Technologies</strong>: ROS, PX4, GPS, MoCap, Optical Flow</p>
+
+<p>Featured in <a href="https://www.wired.com/story/bell-labs-eat-only-human-mana-contemporary/"><strong>Wired</strong></a></p>
+
+
+      <footer class="site-footer">
+        <span class="site-footer-credits"><a href="https://anprasanth.github.io/">Home</a>.</span>
+      </footer>
+    </main>
+  </body>
+</html>

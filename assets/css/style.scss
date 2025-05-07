@@ -1,0 +1,32 @@
+---
+---
+
+@import 'jekyll-theme-cayman';
+
+.page-header {
+    padding: 10px; /* Adjust padding for size */
+    background-color: #f4f4f4; /* Optional: Change background color */
+    font-size: 1.5rem; /* Adjust font size */
+    text-align: center; /* Center-align text */
+}
+
+.page-header h1 {
+    font-size: 2rem; /* Adjust the size of the main title */
+}
+
+.page-header h2 {
+    font-size: 1rem; /* Adjust the size of the tagline */
+}
+
+h1 {
+    font-size: 1.5rem; /* Adjust font size specifically for h1 */
+}   
+h2 {
+    font-size: 1.2rem; /* Adjust font size specifically for h2 */
+}
+li {
+    font-size: 0.9rem; /* Adjust font size specifically for list items */
+} 
+p {
+    font-size: 0.9rem; /* Adjust font size specifically for paragraphs */
+}
