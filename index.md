@@ -13,7 +13,7 @@ Prasanth is an engineering R&D leader with 15+ years of experience spanning robo
 
 # Areas
 - [Robotics](robotics.md)
-- Computer Vision, AI/ML
+- [Computer Vision, AI/ML](cv-ai-ml.md)
 - Wireless Systems
 - Optical Networks
 - Information Theory

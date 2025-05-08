@@ -4,14 +4,14 @@ description: Robotics
 layout: default
 ---
 
-# Warehouse inventory management 
+# Warehouse inventory drones 
 
 <img src="/images/aims-overview.png" alt="System overview" width="750">
 
-This is work I directed at [Sientis](https://www.sientis.ai/) (a Nokia venture). Warehouses perform inventory cycle counting manually
-which is slow and costly. We developed indoor drones which fly autonomously and capture images of inventory 
-locations performing inventory counting 30x faster. The drones use in-house computer vision localization 
-without requiring any additional infrastructure (such as beacons or tags). 
+This is work I directed at [Sientis](https://www.sientis.ai/) (a Nokia venture). Warehouses perform inventory cycle counting manually which is slow, costly, and error-prone. 
+We developed indoor drones which fly autonomously and capture images of inventory 
+locations performing inventory counting 30x faster. The drones use a patented in-house computer 
+vision localization method without requiring any additional infrastructure (such as beacons or fiducials). 
 
 <img src="/images/sientis-drone.webp" alt="Drone" width="350">
 
@@ -19,7 +19,7 @@ We built an industry-leading compact and quiet drone that can navigate narrow ai
 The images are uploaded to the on-premise edge server and public cloud where the images are processed and
 the inventory results are presented to the warehouse user.
 
-**Technologies**: ROS, PX4, VIO, VPS, Sensor fusion, Path planning, Trajectory control, Imaging, Gazebo, Isaac Sim
+**Technologies**: ROS, PX4, VIO, VPS, Object segmentation, Sensor fusion, Path planning, Trajectory control, Imaging, Gazebo, Isaac Sim
 
 # Plant monitoring in vertical farms
 
@@ -45,7 +45,7 @@ with object tracking and a PID-based controller to control the pan-tilt-zoom of 
 We then extended this work to estimate the position of the object and have the drone follow it 
 from a specified distance.
 
-**Technologies**: ROS, PX4, GPS, Path planning, Video streaming, Gazebo, AirSim
+**Technologies**: ROS, PX4, GPS, Object detection, Object tracking, Path planning, Video streaming, Gazebo, AirSim
 
 # Precision landing 
 
