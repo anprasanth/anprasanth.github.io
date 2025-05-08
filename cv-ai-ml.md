@@ -36,7 +36,7 @@ machine learning (ML) model.
 We use natural language queries to analyze trends over time and provide deeper reasoning and insights on
 the inventory findings.
 
-**Technologies**: Large Language Model (LLM), Retrieval Augmented Generation (RAG), Agents, Google Cloud
+**Technologies**: Large Language Model (LLM), Retrieval-Augmented Generation (RAG), Agents, Google Cloud
 
 ## User Interface
 
